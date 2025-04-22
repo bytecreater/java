@@ -108,10 +108,10 @@ public class HelloWorld {
         String name6 = sc.next();
         System.out.println("Your name is: " + name6);
 
-        //nextLine = take line of string as input
-        System.out.print("Enter your full name : ");
-        String fullname = sc.nextLine();
-        System.out.println(fullname);
+        // //nextLine = take line of string as input
+        // System.out.print("Enter your full name : ");
+        // String fullname = sc.nextLine();
+        // System.out.println(fullname);
 
 
 
