@@ -27,11 +27,13 @@ public class BitManupilation {
     //ClearBit to change bit from 1 to 0
     //bit masking
     // ~(BitMask) & number (AND with NOT)
-    int n = 7;//0111
-    int pos = 2;
-    int BitMask = 1 << pos;
-    int ans = ~(BitMask) & n;
-    System.out.println(ans);
+    // int n = 7;//0111
+    // int pos = 2;
+    // int BitMask = 1 << pos;
+    // int ans = ~(BitMask) & n;
+    // System.out.println(ans);
+
+    
 
 
     }    
