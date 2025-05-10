@@ -15,7 +15,7 @@ public class RemoveDuplicates {
         }
     }
     public static void main(String[] args) {
-        String str = "abbccdaaaa";
+        String str = "abbccda";
         Remove(str,0,"");
         
     }
