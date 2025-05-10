@@ -38,6 +38,7 @@ public class Input {
         String sentence = "My name is Nihal";
         String substr = sentence.substring(11 ,sentence.length());
         System.out.println(substr);
+        sc.close();
     
     }
     
