@@ -3,7 +3,7 @@ public class SinglyLL {
     private int size;
     class Node {
         String data;
-        Node next , head;
+        Node next;
 
         Node (String data){
             this.data = data;
