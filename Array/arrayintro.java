@@ -29,6 +29,6 @@ public class arrayintro {
             System.out.println("The number " + key + " is located at index "+ i);
             }
         }
-
+        sc.close();
 }
 }

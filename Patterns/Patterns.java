@@ -220,7 +220,7 @@ public class Patterns {
             System.out.println();
         }
 
-
+        sc.close();
     
     }
     
