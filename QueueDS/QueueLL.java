@@ -1,5 +1,6 @@
 public class QueueLL {
     static Node head;
+    static Node tail;
     public class Node {
         int data ;
         Node next;
@@ -13,14 +14,10 @@ public class QueueLL {
         public void Add(int data){
             Node newNode = new Node(data);
             if(head == null){
-                head = newNode;
+                head = tail = newNode;
             }
-            Node tempNode = head;
-            while(tempNode.next != null){
-                tempNode = tempNode.next;
-            }
-            tempNode.next = newNode;
-            newNode.next = null;
+            tail.next = newNode;
+            tail = newNode;
         }
 
         public void remove(){
@@ -48,6 +45,7 @@ public class QueueLL {
         q.Add(3);
         q.Add(4);
         q.remove();
+        System.out.println(q.peek());
 
         Node tempNode = head;
         while(tempNode != null){
